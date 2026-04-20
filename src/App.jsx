@@ -117,7 +117,7 @@ export default function App() {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    searchLocations();
+    searchLocations("India");
   }, []);
 
   useEffect(() => {
